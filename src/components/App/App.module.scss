@@ -1,0 +1,29 @@
+.App {
+  max-width: 600px;
+  margin: 60px auto;
+  margin-bottom: 0;
+  border: 1px solid red;
+}
+
+
+.App__editor {
+  border-bottom: 1px solid red;
+  padding: 10px;
+}
+
+.App__content {
+  padding: 10px;
+}
+
+.App__filter {
+  padding: 10px;
+  border-top: 1px solid red;
+}
+
+.App__filter>button {
+  text-transform: lowercase;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}

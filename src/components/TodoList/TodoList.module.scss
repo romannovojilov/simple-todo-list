@@ -1,0 +1,16 @@
+.TodoEditor {
+}
+
+.TodoEditor__input {
+  width: 100%;
+  resize: none;
+}
+
+.TodoEditor__group {
+  display: block;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
