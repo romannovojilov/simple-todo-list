@@ -1,0 +1,8 @@
+{
+    "workbench.tree.indent": 20,
+    "files.eol": "\n",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "git.ignoreLimitWarning": true
+}
