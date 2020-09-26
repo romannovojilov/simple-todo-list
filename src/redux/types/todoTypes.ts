@@ -1,0 +1,5 @@
+export const CREATE_TASK = 'TODO/CREATE_TASK';
+export const UPDATE_TASK = 'TODO/UPDATE_TASK';
+export const REMOVE_TASK = 'TODO/REMOVE_TASK';
+export const SET_EDITABLE_TASK = 'TODO/SET_EDITABLE_TASK';
+export const SET_FILTER = 'TODO/SET_FILTER';
