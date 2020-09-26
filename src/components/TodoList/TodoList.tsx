@@ -9,19 +9,19 @@ export const TodoList: React.FC = () => {
   const { list, editableTask, filter } = useSelector<RootState, TodoState>(state => state.todo);
   return (
     <ul style={{ listStyle: 'none' }}>
-    {
-      list.map(task => {
-        if (!filter || filter === task.status)
-        return (
-          <li key={task.id}>
-            <Task
-              task={task}
-              disabled={editableTask && editableTask.id === task.id}
-            />
-          </li>
-        );
-      })
-    }
-  </ul>
+      {
+        list.map(task => {
+          if (!filter || filter === task.status)
+            return (
+              <li key={task.id}>
+                <Task
+                  task={task}
+                  disabled={editableTask && editableTask.id === task.id}
+                />
+              </li>
+            );
+        })
+      }
+    </ul>
   )
 }
